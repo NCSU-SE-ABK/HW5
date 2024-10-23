@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;  /* Ensure the body is at least 100% of the viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            flex:1;
+        }
+        header,table{
+            padding:10px
+        }
         table, th, td {
           border:1px solid black;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: DarkSalmon;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0
         }
         </style>
 <head>
@@ -42,5 +64,9 @@
             <td><a href ="mailto: bkatna@ncsu.edu">bkatna@ncsu.edu</a></td>
         </tr>
       </table>
-</body>
+      <footer>
+        <p>Group 88</p>
+        <p>Master's Student NCSU</p>
+    </body>
+    </footer>
 </html>
