@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    table, th, td {
-      border:1px solid black;
-    }
-</style>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;  /* Ensure the body is at least 100% of the viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        main{
+            flex:1;
+        }
+        header,table{
+            padding:10px
+        }
+        table, th, td {
+          border:1px solid black;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: DarkSalmon;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0
+        }
+        </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,9 +64,12 @@
             <td>bkatna</td>
             <td><a href="mailto:bkatna@ncsu.edu">bkatna@ncsu.edu</a></td>
         </tr>
-    </table>
-    <footer>
+      </table>
+      <footer>
+        <p>Group 88</p>
+        <p>Master's Student NCSU</p>
         <p>g88</p>
-</body>
-</footer>
+    </body>
+    </footer>
 </html>
+
