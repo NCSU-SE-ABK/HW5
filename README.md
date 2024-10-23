@@ -1,0 +1,1 @@
+This repo brefily demonstrate various git commands and invloves learning with branches and resolving conflicts 
